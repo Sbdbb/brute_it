@@ -1,0 +1,59 @@
+# 1–10 Subdomains & DNS
+domain:*.target.com
+apexDomain:target.com
+page.domain:*.target.com
+domain:target.com AND NOT page.domain:target.com
+domain:target.com AND page.ip:*
+domain:target.com AND ip:*
+domain:target.com AND ptr:*
+domain:target.com AND page.country:*
+domain:target.com AND page.city:*
+domain:target.com AND page.asn:*
+
+# 11–20 JavaScript & assets hunting
+page.domain:target.com AND filename:".js"
+page.domain:target.com AND filename:"main"
+page.domain:target.com AND filename:"config"
+page.domain:target.com AND filename:"bundle"
+domain:target.com AND url:".js?*"
+domain:target.com AND url:"/static/"
+domain:target.com AND url:"/assets/"
+domain:target.com AND url:"/cdn/"
+domain:target.com AND mimeType:"application/javascript"
+domain:target.com AND filename:".map"
+
+# 21–30 API & endpoints
+domain:target.com AND path:"/api"
+domain:target.com AND url:"/api/v1"
+domain:target.com AND url:"/api/v2"
+domain:target.com AND url:"/graphql"
+domain:target.com AND url:".json"
+domain:target.com AND url:"/v1/"
+domain:target.com AND url:"endpoint"
+domain:target.com AND url:"/oauth"
+domain:target.com AND url:"/auth"
+domain:target.com AND filename:"swagger"
+
+# 31–40 Sensitive files
+filename:".env" AND domain:target.com
+filename:"config" AND domain:target.com
+filename:"credentials" AND domain:target.com
+filename:"secret" AND domain:target.com
+filename:"backup" OR filename:".bak"
+filename:"database" AND domain:target.com
+url:"/debug" AND domain:target.com
+url:"/internal" AND domain:target.com
+domain:target.com AND url:"/test"
+domain:target.com AND url:"/staging"
+
+# 41–50 Vulnerable endpoints / params
+url:"upload" AND domain:target.com
+url:"download" AND domain:target.com
+url:"redirect=" AND domain:target.com
+url:"next=" AND domain:target.com
+url:"callback=" AND domain:target.com
+url:"return=" AND domain:target.com
+url:"id=" AND domain:target.com
+url:"file=" AND domain:target.com
+url:"path=" AND domain:target.com
+url:"/admin" AND domain:target.com

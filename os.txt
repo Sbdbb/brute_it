@@ -1,0 +1,5 @@
+cat /e\t\c/h\o\s\t\s
+cat${IFS}/e\t\c/h\o\s\t\s
+cat /e*c/h*st*
+cat /e{t,c}*/{o,h}*s*{s,t}
+cat /??c/??sts

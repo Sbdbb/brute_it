@@ -1,0 +1,18 @@
+services.http.response.body: "Index of /" AND services.http.host: /fetlife\.com$/
+
+services.http.response.body: "phpinfo()" AND services.http.host: /fetlife\.com$/
+
+services.http.response.body: ".env" AND services.http.host: /fetlife\.com$/
+
+services.http.response.body: "AWS_SECRET_ACCESS_KEY" AND services.http.host: /fetlife\.com$/
+
+services.http.response.body: "stack trace" AND services.http.host: /fetlife\.com$/
+
+services.http.response.body: "swagger" AND services.http.host: /fetlife\.com$/
+
+services.tls.certificates.leaf_data.subject.common_name: /fetlife\.com$/
+
+services.http.response.status_code: 500 AND services.http.host: /fetlife\.com$/
+services.http.response.body: "DATABASE_URL" AND (services.http.host: fetlife.com OR services.http.host: /\.fetlife\.com$/)
+services.http.response.body: "DATABASE_URL" AND services.http.host: /fetlife\.com$/
+services.http.response.body: "DATABASE_URL" AND services.http.host: fetlife.com

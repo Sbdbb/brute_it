@@ -1,0 +1,13 @@
+application/zip
+application/x-tar
+application/pdf
+application/xml
+text/xml
+application/vnd.ms-excel
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+application/vnd.ms-powerpoint
+application/vnd.openxmlformats-officedocument.presentationml.presentation
+text/css
+text/javascript
+video/mp4
+audio/mpeg

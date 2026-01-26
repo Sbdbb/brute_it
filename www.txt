@@ -1,0 +1,1 @@
+%2F%2F%2F%2F%2F%2F%2F%40google.comhttps://example.com//evil.com/%2F..https:/\\/\\hacker.comhttps:\\/\\/hacker.comhttps;hacker.comhttps:hacker.comhttps://exampl.ecom.evil.comhttps://attacker.com\\@www.vicmt.comhttps://github%2ecom.evil.comhttps://vctm.com/http://google.com/wwwexample.com
