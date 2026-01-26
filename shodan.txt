@@ -1,106 +1,440 @@
-ssl:fetlife.com
-http.html:fetlife.com
-http.title:"FetLife"
-http.favicon.hash:fetlife.com
-ssl.cert.subject.cn:fetlife.com
-ssl.cert.issuer.cn:fetlife.com
-port:443 fetlife.com
-http.status:200 fetlife.com
-http.status:302 fetlife.com
-asn:fetlife.com
-domain:fetlife.com
-http.header_hash:fetlife.com
-http.html_hash:fetlife.com
-ssl:fetlife.com port:443
-http.component:"nginx" fetlife.com
-http.component:"cloudflare" fetlife.com
-country:"US" fetlife.com
-city:"San Francisco" fetlife.com
-http.title:"FetLife" port:443
-http.html:"fetlife" ssl:true
-http.status:403 fetlife.com
-http.waf:fetlife.com
-ssl.cert.serial:fetlife.com
-ssl.cert.pubkey.bits:2048 fetlife.com
-ssl.cert.pubkey.type:"rsa" fetlife.com
-http.server:"nginx" fetlife.com
-http.server:"apache" fetlife.com
-http.component:"jquery" fetlife.com
-http.component:"bootstrap" fetlife.com
-http.component:"wordpress" fetlife.com
-http.robots_hash:fetlife.com
-http.sitemap_hash:fetlife.com
-http.status:404 fetlife.com
-http.status:500 fetlife.com
-http.status:502 fetlife.com
-http.status:503 fetlife.com
-
-vuln:fetlife.com
-has_screenshot:true fetlife.com
-has_ssl:true fetlife.com
-http.component:"rails" fetlife.com
-http.component:"ruby" fetlife.com
-http.html:"login" fetlife.com
-http.html:"admin" fetlife.com
-http.html:"api" fetlife.com
-ssl.version:"TLSv1.2" fetlife.com
-ssl.version:"TLSv1.3" fetlife.com
-ssl.cipher:"AES" fetlife.com
-country:"CA" fetlife.com
-country:"GB" fetlife.com
-city:"Toronto" fetlife.com
-city:"New York" fetlife.com
-http.component:"express" fetlife.com
-http.component:"react" fetlife.com
-http.component:"vue" fetlife.com
-http.component:"angular" fetlife.com
-http.header:"X-Powered-By" fetlife.com
-http.header:"Server" fetlife.com
-http.header:"X-Frame-Options" fetlife.com
-ssl.cert.fingerprint:fetlife.com
-ssl.jarm:fetlife.com
-http.component:"php" fetlife.com
-
-
-
-
-
-http.component:"postgresql" fetlife.com
-http.status:401 fetlife.com
-http.component:"redis" fetlife.com
-http.favicon.hash:fetlife.com port:443
-http.component:"fetlife"
-http.status:405 fetlife.com
-http.component:"mysql" fetlife.com
-hostname:*.fetlife.com
-http.html:"password" fetlife.com
-ssl.cert.expired:false fetlife.com
-http.html:"signup" fetlife.com
-ip:fetlife.com
-ssl:"fetlife.com" country:"US"
-http.status:301 fetlife.com
-http.component:"memcached" fetlife.com
-hostname:fetlife.com
-http.html:"fetlife.com" has_ssl:true
-http.header:"Content-Security-Policy" fetlife.com
-port:80 fetlife.com
-org:"fetlife"
-port:8080 fetlife.com
-port:8443 fetlife.com
-port:3000 fetlife.com
-port:5000 fetlife.com
-port:8000 fetlife.com
-port:9000 fetlife.com
-http.component:"varnish" fetlife.com
-http.component:"haproxy" fetlife.com
-http.component:"gunicorn" fetlife.com
-ssl.cert.subject.cn:"*.fetlife.com"
-ssl.cert.alt_names:fetlife.com
-port:22 fetlife.com
-port:21 fetlife.com
-port:25 fetlife.com
-port:3389 fetlife.com
-port:5432 fetlife.com
-port:3306 fetlife.com
-port:27017 fetlife.com
-port:6379 fetlife.com
+ssl:true http.html:"database.yml" example.com
+ssl.cert.subject.cn:"example" http.html:"api_key" example.com
+after:2024-01-01 http.html:"error.log" example.com
+before:2024-12-31 http.title:"Dashboard" example.com
+http.status:200 http.html:"config.json" example.com
+http.status:403 http.title:"Index of /" example.com
+http.html:"config.php" example.com
+http.html:"database.yml" example.com
+http.html:"secrets.yml" example.com
+http.html:"application.properties" example.com
+http.html:"web.config" example.com
+http.html:"wp-config.php" example.com
+http.html:"config.json" example.com
+http.html:"settings.py" example.com
+http.html:"docker-compose.yml" example.com
+http.html:"dockerfile" example.com
+http.html:"access.log" example.com
+http.html:"error.log" example.com
+http.html:"debug.log" example.com
+http.html:"/var/log/" example.com
+http.html:"console.log" example.com
+http.html:"stderr" example.com
+http.html:"stdout" example.com
+http.title:"Swagger UI" example.com
+http.title:"GraphQL" example.com
+http.title:"GraphiQL" example.com
+http.title:"phpMyAdmin" example.com
+http.title:"phpPgAdmin" example.com
+http.title:"Adminer" example.com
+http.title:"MinIO" example.com
+http.title:"Kibana" example.com
+http.title:"Grafana" example.com
+http.title:"Jenkins" example.com
+http.title:"Portainer" example.com
+http.html:"Powered by" "version" example.com
+http.html:"Server: Apache/" example.com
+http.html:"Server: nginx/" example.com
+http.html:"X-Powered-By: PHP/" example.com
+http.html:"X-AspNet-Version" example.com
+http.html:"X-AspNetMvc-Version" example.com
+http.html:".git/config" example.com
+http.html:".hg/store" example.com
+http.html:".bzr" example.com
+http.html:"CVS/Root" example.com
+http.html:"composer.lock" example.com
+http.html:"package-lock.json" example.com
+http.html:"yarn.lock" example.com
+http.html:"Gemfile.lock" example.com
+http.html:"pom.xml" example.com
+http.html:"requirements.txt" example.com
+http.html:"auth.log" example.com
+http.html:"session.lua" example.com
+http.html:"jwt" "secret" example.com
+http.html:"api_key" example.com
+http.html:"private_key" example.com
+http.html:"s3.amazonaws.com" example.com
+http.html:"storage.googleapis.com" example.com
+http.html:"blob.core.windows.net" example.com
+http.html:"amazonaws.com" "bucket" example.com
+http.html:"X-Oracle" example.com
+http.title:"Database dump" example.com
+http.title:"SQL dump" example.com
+http.title:"Backup" "sql" example.com
+http.html:".sql.gz" example.com
+http.html:".dump" example.com
+http.html:".bak" example.com
+http.html:".tar.gz" "db" example.com
+ssl.cert.subject.organization:"example"
+ssl.cert.issuer.organization:"example"
+ssl.cert.subject.common_name:"example.com"
+ssl.cert.subject.common_name:"*.example.com"
+ssl.cert.alt_names:"example"
+ssl.cert.validity.start:example.com
+ssl.cert.validity.end:example.com
+ssl.cert.signature_algorithm:example.com
+ssl.cert.self_signed:true example.com
+ssl.jarm:example.com
+ssl.version:"TLSv1.1" example.com
+ssl.version:"SSLv3" example.com
+ssl.cipher:"RC4" example.com
+ssl.cipher:"DES" example.com
+http.headers_hash:example.com
+http.headers:"Set-Cookie" example.com
+http.headers:"X-Backend" example.com
+http.headers:"Via" example.com
+http.headers:"X-Cache" example.com
+http.headers:"X-Amz" example.com
+http.html:"debug" example.com
+http.html:"trace" example.com
+http.html:"exception" example.com
+http.html:"stack trace" example.com
+http.html:"internal server error" example.com
+http.html:"config" example.com
+http.html:".env" example.com
+http.html:"backup" example.com
+http.html:".git" example.com
+http.html:".svn" example.com
+http.html:"phpinfo()" example.com
+http.title:"Index of /" example.com
+http.title:"Dashboard" example.com
+http.title:"Admin" example.com
+http.title:"API" example.com
+http.response:"AWS" example.com
+http.response:"S3" example.com
+http.response:"Azure" example.com
+http.response:"GCP" example.com
+os:"Linux" example.com
+os:"Windows" example.com
+product:"OpenSSH" example.com
+product:"nginx" example.com
+product:"Apache httpd" example.com
+product:"Redis" example.com
+product:"MongoDB" example.com
+product:"PostgreSQL" example.com
+product:"MySQL" example.com
+product:"Elasticsearch" example.com
+product:"RabbitMQ" example.com
+port:9200 example.com
+port:5601 example.com
+port:27017 example.com
+port:6379 example.com
+port:11211 example.com
+port:15672 example.com
+port:8081 example.com
+port:8888 example.com
+has_screenshot:true ssl:true example.com
+ssl.cert.subject.organization:"example"
+ssl.cert.issuer.organization:"example"
+ssl.cert.subject.common_name:"example.com"
+ssl.cert.subject.common_name:"*.example.com"
+ssl.cert.alt_names:"example"
+ssl.cert.validity.start:example.com
+ssl.cert.validity.end:example.com
+ssl.cert.signature_algorithm:example.com
+ssl.cert.self_signed:true example.com
+ssl.jarm:example.com
+ssl.version:"TLSv1.1" example.com
+ssl.version:"SSLv3" example.com
+ssl.cipher:"RC4" example.com
+ssl.cipher:"DES" example.com
+http.headers_hash:example.com
+http.headers:"Set-Cookie" example.com
+http.headers:"X-Backend" example.com
+http.headers:"Via" example.com
+http.headers:"X-Cache" example.com
+http.headers:"X-Amz" example.com
+http.html:"debug" example.com
+http.html:"trace" example.com
+http.html:"exception" example.com
+http.html:"stack trace" example.com
+http.html:"internal server error" example.com
+http.html:"config" example.com
+http.html:".env" example.com
+http.html:"backup" example.com
+http.html:".git" example.com
+http.html:".svn" example.com
+http.html:"phpinfo()" example.com
+http.title:"Index of /" example.com
+http.title:"Dashboard" example.com
+http.title:"Admin" example.com
+http.title:"API" example.com
+http.response:"AWS" example.com
+http.response:"S3" example.com
+http.response:"Azure" example.com
+http.response:"GCP" example.com
+os:"Linux" example.com
+os:"Windows" example.com
+product:"OpenSSH" example.com
+product:"nginx" example.com
+product:"Apache httpd" example.com
+product:"Redis" example.com
+product:"MongoDB" example.com
+product:"PostgreSQL" example.com
+product:"MySQL" example.com
+product:"Elasticsearch" example.com
+product:"RabbitMQ" example.com
+port:9200 example.com
+port:5601 example.com
+port:27017 example.com
+port:6379 example.com
+port:11211 example.com
+port:15672 example.com
+port:8081 example.com
+port:8888 example.com
+vuln:CVE-2023-* example.com
+vuln:CVE-2024-* example.com
+has_screenshot:true ssl:true example.com
+example.com
+hostname:example.com
+hostname:*.example.com
+domain:example.com
+org:"example"
+org:"example Airlines"
+ssl.cert.subject.cn:example.com
+ssl.cert.subject.cn:*.example.com
+ssl.cert.alt_names:example.com
+http.host:example.com
+http.host:*.example.com
+ip:0.0.0.0/0 example.com
+net:0.0.0.0/8 example.com
+net:10.0.0.0/8 example.com
+net:172.16.0.0/12 example.com
+net:192.168.0.0/16 example.com
+port:80 example.com
+port:443 example.com
+port:22 example.com
+port:21 example.com
+port:25 example.com
+port:8080 example.com
+port:8443 example.com
+asn:AS* example.com
+country:ES example.com
+city:Barcelona example.com
+product:nginx example.com
+product:Apache example.com
+product:OpenSSH example.com
+os:Linux example.com
+os:Windows example.com
+port:22 http.html:"private_key" example.com
+port:443 http.html:"debug.log" example.com
+port:8080 http.title:"Jenkins" example.com
+country:"ES" http.html:"config.php" example.com
+city:"Barcelona" http.title:"Admin" example.com
+http.html:"kubeconfig" example.com
+http.title:"Kubernetes Dashboard" example.com
+product:"Docker" http.title:"Registry" example.com
+http.html:"terraform.tfstate" example.com
+http.html:"helm" "values.yaml" example.com
+http.html:"ansible" "inventory" example.com
+http.title:"GitLab" example.com
+http.title:"GitHub Enterprise" example.com
+http.title:"Bitbucket" example.com
+http.html:".gitlab-ci.yml" example.com
+http.html:"Jenkinsfile" example.com
+http.html:"Authorization: Bearer" example.com
+http.html:"access_token" example.com
+http.html:"refresh_token" example.com
+http.html:"client_secret" example.com
+http.title:"API Docs" example.com
+http.html:".zip" "backup" example.com
+http.html:".7z" "backup" example.com
+http.html:".rar" "backup" example.com
+http.html:"backup_" example.com
+http.title:"Index of /" "backup" example.com
+http.title:"Django administration" example.com
+http.title:"Laravel" "Whoops" example.com
+http.title:"Spring Boot Admin" example.com
+http.title:"Rails" "Welcome aboard" example.com
+http.title:"Node-RED" example.com
+http.title:"Prometheus" example.com
+http.title:"Alertmanager" example.com
+http.title:"Graylog" example.com
+http.html:"/logs/" example.com
+http.html:"panic:" example.com
+product:"CouchDB" example.com
+product:"InfluxDB" example.com
+product:"Cassandra" example.com
+product:"ZooKeeper" example.com
+product:"Kafka" example.com
+http.title:"Keycloak" example.com
+http.html:"SAML" "Assertion" example.com
+http.html:"oauth" "authorize" example.com
+http.html:"openid" example.com
+ssl.alpn:"h2" example.com
+ssl.cert.expired:true example.com
+ssl.cert.validity.remaining:<30 example.com
+ssl.curve:"secp256r1" example.com
+has_screenshot:true http.title:"Login" example.com
+http.html:"TODO" "FIXME" example.com
+http.html:"test" "password" example.com
+http.html:"example.com" example.com
+http.html:"/etc/passwd" example.com
+http.html:"id_rsa" example.com
+http.html:"authorized_keys" example.com
+http.html:"ssh-rsa" example.com
+http.html:"BEGIN RSA PRIVATE KEY" example.com
+http.html:"credentials" example.com
+http.html:"password=" example.com
+http.html:"passwd" example.com
+http.html:"pwd=" example.com
+http.html:"firebase" "apiKey" example.com
+http.html:"stripe" "sk_live" example.com
+http.html:"paypal" "client_id" example.com
+http.html:"twilio" "auth_token" example.com
+http.title:"Login - Adminer" example.com
+http.title:"Control Panel" example.com
+http.title:"Webmin" example.com
+http.title:"cPanel" example.com
+http.title:"Plesk" example.com
+http.title:"phpLDAPadmin" example.com
+http.title:"Mongo Express" example.com
+http.title:"Redis Commander" example.com
+http.title:"ElasticHQ" example.com
+http.title:"Solr Admin" example.com
+port:5984 product:"CouchDB" example.com
+port:9200 http.title:"Elastic" example.com
+port:3000 http.title:"Grafana" example.com
+port:9090 http.title:"Prometheus" example.com
+http.html:"/admin/login" example.com
+http.html:"/manage/login" example.com
+http.html:"/cpanel" example.com
+http.html:"/administrator" example.com
+http.html:"swagger.json" example.com
+http.html:"openapi.json" example.com
+http.html:"v3/api-docs" example.com
+http.html:"/api/internal" example.com
+http.html:"backup.sql" example.com
+http.html:"db_backup" example.com
+http.html:"full_backup" example.com
+http.html:"site_backup" example.com
+http.html:"kibana.yml" example.com
+http.html:"logstash.conf" example.com
+http.html:"elasticsearch.yml" example.com
+http.html:"redis.conf" example.com
+http.html:"mailgun" "api" example.com
+http.html:"sendgrid" "api_key" example.com
+http.html:"slack" "xoxb-" example.com
+http.title:"Login" http.status:200 ssl:false example.com
+http.html:"dev_mode" example.com
+http.html:"debug=true" example.com
+http.html:"index of /" "parent directory" example.com
+http.html:"Index of" inurl:backup example.com
+http.title:"Index of /" ".git" example.com
+http.html:"<?php phpinfo(); ?>" example.com
+http.html:"root:" "/etc/shadow" example.com
+http.html:"MySQL Error" "SQL syntax" example.com
+http.html:"Warning: mysqli" example.com
+http.html:"Fatal error:" "Stack trace:" example.com
+http.html:"Uncaught exception" example.com
+http.html:"SQLSTATE[" example.com
+http.html:"Undefined index:" example.com
+http.html:"access_key" "secret_key" example.com
+http.html:"aws_access_key_id" example.com
+http.html:"-----BEGIN PRIVATE KEY-----" example.com
+http.html:"client_secret" "client_id" example.com
+http.title:"Application Error" example.com
+http.title:"Runtime Error" example.com
+http.title:"500 Internal Server Error" nginx example.com
+http.html:"ConnectionStrings" "Password=" example.com
+http.html:"jdbc:mysql://" "password" example.com
+http.title:"phpMyAdmin" http.status:200 -http.html:"login" example.com
+http.title:"Adminer" http.status:200 example.com
+http.title:"Grafana" -http.html:"login" example.com
+http.title:"Jenkins" -http.html:"log in" example.com
+http.html:"/admin" -http.html:"login" -http.html:"password" example.com
+http.html:"/.env" example.com
+http.html:"/.git/config" example.com
+http.html:"/.aws/credentials" example.com
+http.html:"/web.config" "connectionStrings" example.com
+http.html:"docker-compose.yml" "environment:" example.com
+http.title:"Swagger UI" http.html:"/v2/api-docs" example.com
+http.title:"Swagger UI" http.html:"securityDefinitions" example.com
+http.html:"GraphQL" http.html:"introspection" example.com
+http.title:"API Documentation" -http.html:"authentication" example.com
+port:9200 product:"Elasticsearch" -http.html:"password" example.com
+port:27017 product:"MongoDB" -http.html:"auth" example.com
+port:6379 product:"Redis" -http.html:"requirepass" example.com
+port:5432 product:"PostgreSQL" -http.html:"password" example.com
+http.html:"Kibana" http.status:200 -http.html:"login" example.com
+http.title:"Kubernetes Dashboard" -http.html:"token" example.com
+http.html:"Grafana" http.status:200 -http.html:"Sign in" example.com
+"default password" example.com
+"230 login successful" port:21 example.com
+vsftpd port:21 example.com
+"anonymous@" login ok port:21 example.com
+"guest login ok" port:21 example.com
+country:EU port:21 -530 +230 example.com
+country:IN port:80 title:protected example.com
+port:23 example.com
+mysql port:3306 example.com
+proftpd port:21 example.com
+os:"Linux" example.com
+os:"Windows 7" example.com
+country:"UK" example.com
+city:"London" example.com
+product:"nginx" example.com
+Server:"SQ-WEBCAM" example.com
+title:"xzeres wind" example.com
+geo:"51.5074,0.1278" example.com
+port:5432 example.com
+port:25 product:"exim" example.com
+os:"Windows 10 Home" example.com
+port:3389 example.com
+ssl:"Xerox Generic Root" example.com
+port:53 "Recursion: Enabled" example.com
+"MongoDB Server Information" port:27017 -authentication example.com
+"Set-Cookie: mongo-express=" "200 OK" example.com
+port:9200 "elastic indices" example.com
+"220" "230 Login successful." port:21 example.com
+port:11211 product:"Memcached" example.com
+"X-Jenkins" "JSESSIONID" http.title:"Dashboard" example.com
+port:8291 os:"MikroTik RouterOS" example.com
+product:"Apache httpd" port:80 example.com
+product:"Microsoft IIS httpd" example.com
+port:8080 product:"nginx" example.com
+ssl.cert.issuer.cn:example.com ssl.cert.subject.cn:example.com
+ssl.cert.expired:true example.com
+Server:"yawcam" "Mime-Type: text/html" example.com
+port:5006,5007 product:mitsubishi example.com
+Server:"gSOAP/2.8" example.com
+"authentication disabled" "RFB 003.008" example.com
+"Authentication: disabled" port:445 example.com
+"X-Plex-Protocol" "200 OK" port:32400 example.com
+http.title:"Index of /" -Forbidden example.com
+login: password example.com
+port:9200 example.com
+port:27017 example.com
+http.title:"Dashboard" jenkins example.com
+"RFB 003.003" port:5900 example.com
+port:3389 example.com
+port:6379 example.com
+port:21 example.com
+"Apache Tomcat" example.com
+http.html:"xoxb-" example.com
+http.html:"AKIA" example.com
+http.html:"AIza" example.com
+http.title:"Grafana" example.com
+port:21 "230 Login Successful" example.com
+"230" "anonymous@" "login ok" example.com
+asn:AS63293 example.com
+http.favicon.hash:81586312 example.com
+ssl.cert.subject.cn:example.com example.com
+ssl.cert.issuer.cn:example.com example.com
+ssl.cert.subject.cn:*.example.com example.com
+ssl.cert.issuer.cn:*.example.com example.com
+http.html:"The wp-config.php creation script uses this file" example.com
+http.component:AngularJS example.com
+http.title:"Index Of /" example.com
+http.title:"Index Of /admin" example.com
+http.title:"Directory Listing" example.com
+ssl:true http.html:"database.yml" example.com
+ssl.cert.subject.cn:"example" http.html:"api_key" example.com
+after:2024-01-01 http.html:"error.log" example.com
+before:2024-12-31 http.title:"Dashboard" example.com
+http.status:200 http.html:"config.json" example.com
+http.status:403 http.title:"Index of /" example.com
+http.html:"config.php" example.com
+http.html:"database.yml" example.com
+http.html:"secrets.yml" example.com
+http.html:"application.properties" example.com
